@@ -20,7 +20,7 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - burhanxss
+        - burhanxd
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
